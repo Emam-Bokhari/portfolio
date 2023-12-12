@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Banner = () => {
   return (
     <div>
@@ -22,9 +24,9 @@ const Banner = () => {
             </span>
           </h2>
           <div className="flex gap-2 justify-center items-center md:justify-start md:items-start">
-            <button className="py-3 px-5 border my-2 text-lg rounded text-dark-01 dark:text-white">
+            <Link to="/about" className="py-3 px-5 border my-2 text-lg rounded text-dark-01 dark:text-white">
               About Me
-            </button>
+            </Link>
             <a href="https://drive.google.com/file/d/1ggCW8rK9qwP3vwUossbbjZVFus-Joeei/view?usp=sharing" >
             <button className="py-3 px-5 border my-2 text-lg rounded bg-dark-01 dark:bg-dark-03 text-white">
               Download Resume
