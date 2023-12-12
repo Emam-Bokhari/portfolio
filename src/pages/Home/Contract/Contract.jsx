@@ -1,8 +1,21 @@
+import toast, { Toaster } from "react-hot-toast";
 import { FaPaperPlane, FaLinkedin } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 
 const Contract = () => {
+
+  const handleSubscribe=(event)=>{
+    event.preventDefault()
+    const form=event.target 
+    const name=form.name.value 
+    const email=form.email.value 
+    console.log(name,email);
+    toast.success("Thanks for subscribe!")
+    form.reset()
+
+  }
+
   return (
     <div>
       <div className="px-5">
@@ -15,7 +28,7 @@ const Contract = () => {
             <p className="text-dark-02 dark:text-white text-lg mb-5">
               Get latest updates, deals, and exclusive offers Every time.
             </p>
-            <form>
+            <form onSubmit={handleSubscribe} >
               <input
                 className="py-3 px-5 bg-gray-100 border border-gray-200 w-full rounded outline-none mb-4"
                 type="text"
@@ -30,7 +43,7 @@ const Contract = () => {
                 placeholder="Enter Your Email"
                 id=""
               />
-              <button
+              <button 
                 className="py-3 px-10 text-white bg-dark-03 rounded inline-flex gap-3 items-center"
                 type="submit"
               >
@@ -77,6 +90,7 @@ const Contract = () => {
           </div>
         </div>
       </div>
+      <Toaster/>
     </div>
   );
 };
