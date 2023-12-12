@@ -5,14 +5,14 @@ const About = () => {
       Moshfiqur Rahman <br />
 MERN Stack Developer <br />
 
-<p>I am a highly motivated and self-taught MERN Stack Developer with a passion for crafting dynamic and intuitive web applications. Specializing in frontend development using React.js and backend development with Node.js and Express.js, I bring a wealth of knowledge and hands-on experience to create seamless and engaging user experiences.</p>
+<p className="text-justify" >I am a highly motivated and self-taught MERN Stack Developer with a passion for crafting dynamic and intuitive web applications. Specializing in frontend development using React.js and backend development with Node.js and Express.js, I bring a wealth of knowledge and hands-on experience to create seamless and engaging user experiences.</p>
 
 <br />
 
-I take pride in my ability to deliver high-quality solutions that meet both user and business needs. With a keen eye for detail and a commitment to staying updated on the latest industry trends, I am dedicated to pushing the boundaries of web development.
+<p className="text-justify" >I take pride in my ability to deliver high-quality solutions that meet both user and business needs. With a keen eye for detail and a commitment to staying updated on the latest industry trends, I am dedicated to pushing the boundaries of web development.</p>
+
 <br />
-<br />
-Let's connect and discuss how my skills can contribute to your projects or team.
+<p>Let's connect and discuss how my skills can contribute to your projects or team.</p>
       </p>
     </div>
   );

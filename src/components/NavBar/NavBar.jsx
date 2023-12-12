@@ -73,7 +73,7 @@ const NavBar = () => {
             isPending ? "pending " : isActive ? "text-dark-03 " : ""
           }
         >
-          Contract
+          Contact
         </NavLink>
       </li>
     </>

@@ -20,14 +20,14 @@ const Contract = () => {
                 className="py-3 px-5 bg-gray-100 border border-gray-200 w-full rounded outline-none mb-4"
                 type="text"
                 name="name"
-                placeholder="Your Name"
+                placeholder="Enter Your Name"
                 id=""
               />
               <input
                 className="py-3 px-5 bg-gray-100 border border-gray-200 w-full rounded outline-none mb-4"
                 type="email"
                 name="email"
-                placeholder="Your Email"
+                placeholder="Enter Your Email"
                 id=""
               />
               <button
@@ -38,7 +38,7 @@ const Contract = () => {
               </button>
             </form>
           </div>
-          <div className="divider lg:divider-horizontal dark:text-white">
+          <div>
             OR
           </div>
           <div
@@ -47,29 +47,29 @@ const Contract = () => {
             className="md:w-1/2 p-10"
           >
             <h2 className="text-dark-01 dark:text-white font-semibold text-3xl md:text-4xl mb-2">
-              Contract now
+              Contact me
             </h2>
             <div className="w-20 h-1.5 bg-dark-03 dark:text-white mb-5 ml-2"></div>
             <div className="flex gap-3 font-medium text-xl items-center ">
               <FaWhatsapp className="text-dark-03 dark:text-white text-3xl" />
               <a className="text-dark-01 dark:text-white" href="#">
-                01590040222
+                +880 131 577 3424
               </a>
             </div>
             <div className="flex gap-3 font-medium text-xl items-center ">
               <MdEmail className="text-dark-03 dark:text-white text-3xl" />
               <a
                 className="text-dark-01 dark:text-white"
-                href="mailto:rabby-webdeveloper@gmail.com"
+                href="mailto:moshfiqurrahman37@gmail.com"
               >
-                rabby-webdeveloper@gmail.com
+                moshfiqurrahman37@gmail.com
               </a>
             </div>
             <div className="flex gap-3 font-medium text-xl items-center ">
               <FaLinkedin className="text-dark-03 dark:text-white text-3xl" />
               <a
                 className="text-dark-01 dark:text-white"
-                href="mailto:rabby-webdeveloper@gmail.com"
+                href="https://www.linkedin.com/in/moshfiqur-rahman-a302b32a3"
               >
                 Linkedin
               </a>

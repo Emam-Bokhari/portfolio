@@ -9,7 +9,7 @@ const Projects = () => {
           <a href="#">
             <img
               className="rounded-t-lg h-64"
-              src="https://i.ibb.co/56Bmnw9/18056437-70-Z-2108-w013-n001-512-B-p30-512.jpg"
+              src="https://i.ibb.co/ggsSs5R/bg.jpg"
               alt=""
             />
           </a>
@@ -22,7 +22,7 @@ const Projects = () => {
           <hr />
           <div className="p-5">
             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-              Polling and Survey App
+              Online Survey
             </h5>
             <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
               OpineLink A survey web-application on Servicesphere. Users can
@@ -30,24 +30,24 @@ const Projects = () => {
             </p>
 
             <div className="text-gray-900 dark:text-white flex justify-between">
-              <a href="https://polling-survey-app.web.app/">
+              <a href="https://surveyspehere.web.app/">
                 <div className="flex justify-center items-center gap-1 border px-3 py-1 rounded-md bg-dark-01 dark:bg-dark-03 text-white">
                   <TbWorldWww />
                   <p>Live</p>
                 </div>
               </a>
 
-              <a href="https://github.com/rabby-web/polling-survey-app-client?tab=readme-ov-file">
+              <a href="https://github.com/Emam-Bokhari/survey-Sphere-clientside">
                 <div className="flex justify-center items-center gap-1 border px-3 py-1 rounded-md bg-dark-01 dark:bg-dark-03 text-white">
                   <FaGithub />
-                  <p>Client</p>
+                  <p>Client Side</p>
                 </div>
               </a>
 
-              <a href="https://github.com/rabby-web/polling-survey-app-server/">
+              <a href="https://github.com/Emam-Bokhari/surveySphere-serverside">
                 <div className="flex justify-center items-center gap-1 border px-3 py-1 rounded-md bg-dark-01 dark:bg-dark-03 text-white">
                   <FaGithub />
-                  <p>Server</p>
+                  <p>Server Side</p>
                 </div>
               </a>
             </div>
@@ -58,7 +58,7 @@ const Projects = () => {
           <a href="#">
             <img
               className="rounded-t-lg h-64"
-              src="https://i.ibb.co/pZ2sXQk/dsd.png"
+              src="https://i.ibb.co/4YZSZS4/market.jpg"
               alt=""
             />
           </a>
@@ -79,24 +79,24 @@ const Projects = () => {
             </p>
 
             <div className="text-gray-900 dark:text-white flex justify-between">
-              <a href="https://martplace-d6c8a.web.app/">
+              <a href="https://gig-grow.web.app/">
                 <div className="flex justify-center items-center gap-1 border px-3 py-1 rounded-md bg-dark-01 dark:bg-dark-03 text-white">
                   <TbWorldWww />
                   <p>Live</p>
                 </div>
               </a>
 
-              <a href="https://github.com/rabby-web/martplace-client">
+              <a href="https://github.com/Emam-Bokhari/gig-Grow-clientside">
                 <div className="flex justify-center items-center gap-1 border px-3 py-1 rounded-md bg-dark-01 dark:bg-dark-03 text-white">
                   <FaGithub />
-                  <p>Client</p>
+                  <p>Client Side</p>
                 </div>
               </a>
 
-              <a href="https://github.com/rabby-web/martplace-server">
+              <a href="https://github.com/Emam-Bokhari/gig-Grow-serverside">
                 <div className="flex justify-center items-center gap-1 border px-3 py-1 rounded-md bg-dark-01 dark:bg-dark-03 text-white">
                   <FaGithub />
-                  <p>Server</p>
+                  <p>Server Side</p>
                 </div>
               </a>
             </div>
@@ -107,7 +107,7 @@ const Projects = () => {
           <a href="#">
             <img
               className="rounded-t-lg h-64"
-              src="https://i.ibb.co/0sLkFdw/crs.jpg"
+              src="https://i.ibb.co/kKMQQL4/online.jpg"
               alt=""
             />
           </a>
@@ -136,10 +136,10 @@ const Projects = () => {
                 </div>
               </a>
 
-              <a href="https://github.com/rabby-web/course-registration?tab=readme-ov-file">
+              <a href="https://github.com/Emam-Bokhari/course-registration">
                 <div className="flex justify-center items-center gap-1 border px-3 py-1 rounded-md bg-dark-01 dark:bg-dark-03 text-white">
                   <FaGithub />
-                  <p>Code</p>
+                  <p>Clent Side</p>
                 </div>
               </a>
             </div>

@@ -11,30 +11,39 @@ const Skill = () => {
   return (
     <div className="py-6 px-3">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 mb-4">
-        <div className="text-2xl text-center border p-4 rounded-md">
+
+{/* Js */}
+<div className="text-2xl text-center border p-4 rounded-md">
           <div className="flex justify-center gap-3  items-center">
-            <img src={svg2} alt="" />
-            <h2 className="dark:text-white text-dark-01">HTML</h2>
+            <img src={svg4} alt="" />
+            <h2 className="dark:text-white text-dark-01">JavaScript</h2>
           </div>
 
           <progress
             className="progress progress-info w-56"
-            value="90"
+            value="65"
             max="100"
           ></progress>
         </div>
-        <div className="text-2xl text-center border p-4 rounded-md">
+        
+
+{/* React */}
+
+<div className="text-2xl text-center border p-4 rounded-md">
           <div className="flex justify-center gap-3  items-center">
-            <img src={svg1} alt="" />
-            <h2 className="dark:text-white text-dark-01">CSS</h2>
+            <img src={svg5} alt="" />
+            <h2 className="dark:text-white text-dark-01">React</h2>
           </div>
 
           <progress
             className="progress progress-info w-56"
-            value="80"
+            value="70"
             max="100"
           ></progress>
         </div>
+        
+
+{/* Tailwind */}
         <div className="text-2xl text-center border p-4 rounded-md">
           <div className="flex justify-center gap-3  items-center">
             <img src={svg3} alt="" />
@@ -47,22 +56,13 @@ const Skill = () => {
             max="100"
           ></progress>
         </div>
-        <div className="text-2xl text-center border p-4 rounded-md">
-          <div className="flex justify-center gap-3  items-center">
-            <img src={svg4} alt="" />
-            <h2 className="dark:text-white text-dark-01">JavaScript</h2>
-          </div>
 
-          <progress
-            className="progress progress-info w-56"
-            value="65"
-            max="100"
-          ></progress>
-        </div>
-        <div className="text-2xl text-center border p-4 rounded-md">
+
+{/* Express */}
+<div className="text-2xl text-center border p-4 rounded-md">
           <div className="flex justify-center gap-3  items-center">
-            <img src={svg5} alt="" />
-            <h2 className="dark:text-white text-dark-01">React</h2>
+            <img src={svg9} alt="" />
+            <h2 className="dark:text-white text-dark-01">Express JS</h2>
           </div>
 
           <progress
@@ -70,20 +70,11 @@ const Skill = () => {
             value="70"
             max="100"
           ></progress>
-        </div>
-        <div className="text-2xl text-center border p-4 rounded-md">
-          <div className="flex justify-center gap-3  items-center">
-            <img src={svg7} alt="" />
-            <h2 className="dark:text-white text-dark-01">Firebase</h2>
-          </div>
+        </div>   
 
-          <progress
-            className="progress progress-info w-56"
-            value="90"
-            max="100"
-          ></progress>
-        </div>
-        <div className="text-2xl text-center border p-4 rounded-md">
+
+{/* Node */}
+<div className="text-2xl text-center border p-4 rounded-md">
           <div className="flex justify-center gap-3  items-center">
             <img src={svg6} alt="" />
             <h2 className="dark:text-white text-dark-01">Node JS</h2>
@@ -95,18 +86,8 @@ const Skill = () => {
             max="100"
           ></progress>
         </div>
-        <div className="text-2xl text-center border p-4 rounded-md">
-          <div className="flex justify-center gap-3  items-center">
-            <img src={svg9} alt="" />
-            <h2 className="dark:text-white text-dark-01">Express JS</h2>
-          </div>
 
-          <progress
-            className="progress progress-info w-56"
-            value="70"
-            max="100"
-          ></progress>
-        </div>
+        {/* MongoDB */}
         <div className="text-2xl text-center border p-4 rounded-md">
           <div className="flex justify-center gap-3 items-center">
             <img src={svg8} alt="" />
@@ -119,6 +100,54 @@ const Skill = () => {
             max="100"
           ></progress>
         </div>
+       
+
+{/* Firebase */}
+<div className="text-2xl text-center border p-4 rounded-md">
+          <div className="flex justify-center gap-3  items-center">
+            <img src={svg7} alt="" />
+            <h2 className="dark:text-white text-dark-01">Firebase</h2>
+          </div>
+
+          <progress
+            className="progress progress-info w-56"
+            value="90"
+            max="100"
+          ></progress>
+        </div>
+        
+
+{/* Html */}
+<div className="text-2xl text-center border p-4 rounded-md">
+          <div className="flex justify-center gap-3  items-center">
+            <img src={svg2} alt="" />
+            <h2 className="dark:text-white text-dark-01">HTML</h2>
+          </div>
+
+          <progress
+            className="progress progress-info w-56"
+            value="90"
+            max="100"
+          ></progress>
+        </div>
+       
+
+{/* Css */}
+<div className="text-2xl text-center border p-4 rounded-md">
+          <div className="flex justify-center gap-3  items-center">
+            <img src={svg1} alt="" />
+            <h2 className="dark:text-white text-dark-01">CSS</h2>
+          </div>
+
+          <progress
+            className="progress progress-info w-56"
+            value="80"
+            max="100"
+          ></progress>
+        </div>
+        
+
+
       </div>
     </div>
   );

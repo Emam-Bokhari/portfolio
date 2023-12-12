@@ -13,7 +13,7 @@ const Home = () => {
       </h2>
       <About></About>
       <h2 className="text-2xl text-center font-semibold py-3 text-dark-01 dark:text-dark-03">
-        Skill
+        My Skills
       </h2>
       <div className="pb-5">
         <Skill></Skill>
@@ -25,7 +25,7 @@ const Home = () => {
         <Projects></Projects>
       </div>
       <h2 className="text-2xl text-center font-semibold py-3 text-dark-01 dark:text-dark-03">
-        Contract
+        Contact
       </h2>
       <div className="pb-5">
         <Contract></Contract>

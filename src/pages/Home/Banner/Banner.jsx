@@ -5,7 +5,7 @@ const Banner = () => {
       <div className="md:flex items-center py-4">
         <div className="flex-1">
           <img
-            src="https://i.ibb.co/cJYRjYG/rabby-protfolio-removebg-preview.png"
+            src="https://i.ibb.co/w78rVyD/26459420-future-of-work-concept-illustration.jpg"
             alt=""
             className="w-96 h-96 mx-auto"
           />
@@ -25,9 +25,11 @@ const Banner = () => {
             <button className="py-3 px-5 border my-2 text-lg rounded text-dark-01 dark:text-white">
               About Me
             </button>
+            <a href="https://drive.google.com/file/d/1ggCW8rK9qwP3vwUossbbjZVFus-Joeei/view?usp=sharing" >
             <button className="py-3 px-5 border my-2 text-lg rounded bg-dark-01 dark:bg-dark-03 text-white">
               Download Resume
             </button>
+            </a>
           </div>
         </div>
       </div>
